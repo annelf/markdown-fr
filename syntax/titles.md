@@ -65,3 +65,46 @@ test
 ---
 
 
+# Traduction de l'anglais vers le français pour la quête.
+
+# Titres
+
+Lorsque que l'on commence à écrire un texte en markdown, il est nécessaire d'ajouter un titre et des sous-titres.
+
+Le markdown a deux types d'en-têtes : Setext et atx.
+
+Avec Setext les titres sont soulignés en utilisant le signe égal (pour les titres de premier niveau et le tirer (pour les titres de second niveau). Par exemple :
+
+```
+C'est un H1
+===========
+
+C'est un H2
+-----------
+```
+
+Tout nombre souligné par ='s ou -'s fonctionnera.
+
+Avec Atx les titres utilisent 1 à 6 hashtag au début de la ligne, le nombre de hastag correspondant à des niveaux de 1 à 6. Par exemple :
+
+```
+# C'est un H1
+
+## C'est un H2
+
+### C'est un H3
+
+#### C'est un H4
+
+##### C'est un H5
+
+###### C'est un H6
+```
+
+De manière optionnelle, on peut fermer un titre atx. C'est purement esthétique, on peut le faire si l'on trouve que cela rend mieux. On fermera avec un hashtag, qui n'a pas besoin d'être proptionnel aux hastags qui ont servi à ouvrir le titre. (Le nombre de hastag "ouvrant" détermine l'importance du titre.
+
+```
+# C'est un H1 #
+##### C'est un H5 #
+```
+
